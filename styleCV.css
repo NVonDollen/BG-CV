@@ -1,0 +1,134 @@
+body {
+    font-size: 18px;
+    background-color: hsl(64, 50%, 82%);
+    text-align: justify;
+    color: hsl(236, 70%, 5%);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1rem 2rem;
+    border: double #0816d4 4px;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #0816d4;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: -2px 2px 4px hsl(236, 70%, 35%);
+    margin: 2rem 0;
+}
+
+h2 {
+    color: hsl(236, 70%, 35%);
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.2rem;
+    margin-top: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+    text-decoration: underline;
+    color: hsl(236, 70%, 5%);
+    text-align: center;
+    margin: 2rem 0;
+}
+
+h4 {
+    font-size: 1.8rem;
+    color: rgb(241, 121, 185);
+    border-bottom: solid 2px rgb(168, 74, 124);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+img {
+    border-radius: 50%;
+    border: solid rgb(63, 31, 14) 4px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 0 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+th, td {
+    padding: 0.5rem;
+    border: 1px solid hsl(236, 70%, 35%);
+    text-align: left;
+}
+
+.right-table {
+    text-align: right;
+}
+
+form {
+    margin-bottom: 2rem;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: rgb(240, 153, 200);
+    border: 1px solid rgb(168, 74, 124);
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #0816d4;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #0816d4;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #10e65b;
+}
+
+#or {
+    font-size: 2rem;
+    border: dashed 4px;
+    color: rgb(168, 74, 124);
+    width: 10rem;
+    height: 3rem;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.update {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
